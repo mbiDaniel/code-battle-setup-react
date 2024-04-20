@@ -2,7 +2,7 @@ import axios from "axios";
 
 const apiClient = async (url, method, data, params = {}) => {
     try {
-        axios.defaults.baseURL = process.env.REACT_APP_BASE_URL
+        axios.defaults.baseURL = "http://172.20.10.4:4000/api/v1"
         const token = localStorage.getItem("token");
         const headers = token ? {
           Authorization: token,

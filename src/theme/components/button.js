@@ -19,7 +19,7 @@ export const buttonStyles = {
           borderRadius: "16px",
         }),
         brand: (props) => ({
-          bg: mode("brand.500", "brand.400")(props),
+          bg: mode("primary", "primary")(props),
           color: "white",
           _focus: {
             bg: mode("brand.500", "brand.400")(props),

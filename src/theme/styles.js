@@ -6,8 +6,8 @@ export const globalStyles = {
       200: "#422AFB",
       300: "#422AFB",
       400: "#7551FF",
-      500: "#422AFB",
-      600: "#3311DB",
+      500: "#475BD8",
+      600: "#475BD8",
       700: "#02044A",
       800: "#190793",
       900: "#11047A",
@@ -77,6 +77,7 @@ export const globalStyles = {
     gray: {
       100: "#FAFCFE",
     },
+    primary: "#475BD8"
   },
   styles: {
     global: (props) => ({
